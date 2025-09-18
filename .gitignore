@@ -1,0 +1,13 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Plan files
+*.tfplan
+
+# CLI override files
+.override.tf
+
+# Sensitive files
+terraform.tfvars
